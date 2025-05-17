@@ -41,7 +41,7 @@ Insights sobre fatores socioeconômicos que influenciam o desempenho educacional
 
 ---
 
-## 🔧 Ambiente de Desenvolvimento
+## Ambiente de Desenvolvimento
 
 Projeto desenvolvido em **Jupyter Notebook**, utilizando a linguagem **Python 3.13**.
 
