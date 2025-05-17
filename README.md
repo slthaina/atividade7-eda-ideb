@@ -1,8 +1,7 @@
 # FACULDADE DE COMPUTAÇÃO E INFORMÁTICA (FCI)
 
-## 👩‍💻 Autoras
+## 👩‍💻 Autora
 
-- **Karla Maria Ramos da Silva** – RA: 10441405  
 - **Thainá Silva Leite** – RA: 10730503  
 
 ---
@@ -12,51 +11,39 @@
 
 ---
 
-## 🎯 Objetivo
+Análise Exploratória do IDEB e IDHM no Município de São Paulo
+Autoras
+Karla Maria Ramos da Silva – RA: 10441405
 
-Investigar como o Índice de Desenvolvimento da Educação Básica (IDEB) varia entre os diferentes distritos da cidade de São Paulo, analisando sua evolução ao longo do tempo e identificando **fatores socioeconômicos correlacionados**, especialmente aqueles representados pelo Índice de Desenvolvimento Humano Municipal (IDHM).
+Thainá Silva Leite – RA: 10730503
 
-> **Hipótese:** Existe uma correlação significativa entre o IDEB e os indicadores socioeconômicos dos distritos de São Paulo, especialmente os componentes de **renda** e **educação** do IDHM.
+Objetivo
+Investigar como o Índice de Desenvolvimento da Educação Básica (IDEB) varia entre os diferentes distritos da cidade de São Paulo, analisando sua evolução ao longo do tempo e identificando fatores socioeconômicos correlacionados, especialmente aqueles representados pelo Índice de Desenvolvimento Humano Municipal (IDHM).
 
----
+Dados Utilizados
+IDEB: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)
 
-## 📊 Dados Utilizados
+IDHM: Programa das Nações Unidas para o Desenvolvimento (PNUD)
 
-- **IDEB** (Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira - INEP)
-- **IDHM** (Programa das Nações Unidas para o Desenvolvimento - PNUD)
+Metodologia
+Exploração Inicial dos Dados: Descrição das variáveis, verificação de dados ausentes e outliers.
 
-**Metadados principais:**
+Resumo Estatístico: Cálculo de medidas como média, mediana, moda, mínimo, máximo, quartis e desvio padrão.
 
-- Ano de referência (IDEB)
-- Código e nome da escola
-- Prefeitura Regional (distrito)
-- Nota IDEB
-- IDHM Geral, Renda e Educação
+Visualizações de Dados: Criação de histogramas, boxplots, gráficos de dispersão e mapas de calor.
 
----
+Teste de Normalidade: Aplicação do teste de Kolmogorov-Smirnov para verificar a normalidade de variáveis numéricas.
 
-## 📁 Estrutura do Repositório
+Relações Entre Variáveis: Análise de correlação entre variáveis numéricas.
 
-A estrutura do repositório é organizada da seguinte forma:
+Conclusão: Identificação de padrões, anomalias e insights relevantes.
 
-```
-.
-├── dados/            # Conjunto de dados brutos e tratados
-├── notebooks/        # Análises em Jupyter Notebook
-├── scripts/          # Scripts auxiliares (se houver)
-├── requirements.txt  # Bibliotecas necessárias
-└── README.md         # Documentação do projeto
-```
+Resultados
+Identificação de correlações significativas entre o IDEB e os componentes de renda e educação do IDHM.
 
----
+Visualizações que destacam as desigualdades educacionais entre os distritos de São Paulo.
 
-## 📌 Metodologia
-
-1. **Coleta**: Dados extraídos de plataformas públicas da Prefeitura de São Paulo, INEP e IBGE.
-2. **Tratamento**: Limpeza de dados, remoção de duplicatas, análise de tipos e valores nulos.
-3. **Exploração**: Visualizações com histogramas, boxplots, tabelas de frequência e mapas de calor.
-4. **Correlação**: Análise entre IDEB e componentes do IDHM (renda e educação).
-5. **Projeções**: Estimativas do IDHM para 2020 com modelos linear e exponencial.
+Insights sobre fatores socioeconômicos que influenciam o desempenho educacional.
 
 ---
 
@@ -73,12 +60,12 @@ Projeto desenvolvido em **Jupyter Notebook**, utilizando a linguagem **Python 3.
 
 ---
 
-## ⚙️ Como Executar
+##  Como Executar
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/slthaina/projeto-ideb-idhm.git
-cd projeto-ideb-idhm
+git clone git clone https://github.com/slthaina/atividade7-eda-ideb.git
+cd atividade7-eda-ideb
 ```
 
 2. (Opcional) Crie um ambiente virtual:
