@@ -6,7 +6,7 @@
 
 ---
 
-# PROJETO APLICADO I:  
+# Projeto de Análise Exploratória de Dados (EDA):  
 ## Análise do IDEB e das Desigualdades Educacionais no Ensino Público do Município de São Paulo
 
 ---
