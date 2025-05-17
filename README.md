@@ -54,7 +54,7 @@ Projeto desenvolvido em **Jupyter Notebook**, utilizando a linguagem **Python 3.
 
 ---
 
-##  Como Executar
+## Como Executar
 
 1. Clone o repositório:
 ```bash
