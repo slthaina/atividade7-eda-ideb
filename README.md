@@ -11,21 +11,15 @@
 
 ---
 
-Análise Exploratória do IDEB e IDHM no Município de São Paulo
-Autoras
-Karla Maria Ramos da Silva – RA: 10441405
-
-Thainá Silva Leite – RA: 10730503
-
-Objetivo
+# Objetivo
 Investigar como o Índice de Desenvolvimento da Educação Básica (IDEB) varia entre os diferentes distritos da cidade de São Paulo, analisando sua evolução ao longo do tempo e identificando fatores socioeconômicos correlacionados, especialmente aqueles representados pelo Índice de Desenvolvimento Humano Municipal (IDHM).
 
-Dados Utilizados
+# Dados Utilizados
 IDEB: Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (INEP)
 
 IDHM: Programa das Nações Unidas para o Desenvolvimento (PNUD)
 
-Metodologia
+# Metodologia
 Exploração Inicial dos Dados: Descrição das variáveis, verificação de dados ausentes e outliers.
 
 Resumo Estatístico: Cálculo de medidas como média, mediana, moda, mínimo, máximo, quartis e desvio padrão.
@@ -38,7 +32,7 @@ Relações Entre Variáveis: Análise de correlação entre variáveis numérica
 
 Conclusão: Identificação de padrões, anomalias e insights relevantes.
 
-Resultados
+# Resultados
 Identificação de correlações significativas entre o IDEB e os componentes de renda e educação do IDHM.
 
 Visualizações que destacam as desigualdades educacionais entre os distritos de São Paulo.
@@ -88,7 +82,7 @@ Acesse a pasta `notebooks/` e abra os arquivos `.ipynb`.
 
 ---
 
-## 📚 Bibliotecas
+##  Bibliotecas
 
 As bibliotecas necessárias para rodar o projeto são:
 
@@ -99,7 +93,7 @@ As bibliotecas necessárias para rodar o projeto são:
 
 ---
 
-## 🧠 Conclusão Esperada
+## Conclusão Esperada
 
 Espera-se que distritos com menor desenvolvimento humano apresentem, em média, IDEBs mais baixos — reforçando a necessidade de políticas públicas que integrem aspectos educacionais e sociais.
 
